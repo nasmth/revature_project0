@@ -1,0 +1,299 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "/home/nasmth/projects/project0/project0",
+        "workspaceDir": "/home/nasmth/projects/project0/project0",
+        "sources": [
+            "/home/nasmth/projects/project0/project0/src/main/scala-2.12",
+            "/home/nasmth/projects/project0/project0/src/main/scala",
+            "/home/nasmth/projects/project0/project0/src/main/java",
+            "/home/nasmth/projects/project0/project0/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/nasmth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar",
+            "/home/nasmth/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-42.2.19.jar",
+            "/home/nasmth/.ivy2/cache/org.checkerframework/checker-qual/jars/checker-qual-3.5.0.jar",
+            "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle_2.12/jars/upickle_2.12-0.9.5.jar",
+            "/home/nasmth/.ivy2/cache/com.lihaoyi/ujson_2.12/jars/ujson_2.12-0.9.5.jar",
+            "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle-core_2.12/jars/upickle-core_2.12-0.9.5.jar",
+            "/home/nasmth/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/bundles/scala-collection-compat_2.12-2.0.0.jar",
+            "/home/nasmth/.ivy2/cache/com.lihaoyi/upack_2.12/jars/upack_2.12-0.9.5.jar",
+            "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle-implicits_2.12/jars/upickle-implicits_2.12-0.9.5.jar",
+            "/home/nasmth/.ivy2/cache/com.lihaoyi/os-lib_2.12/jars/os-lib_2.12-0.7.3.jar",
+            "/home/nasmth/.ivy2/cache/com.lihaoyi/geny_2.12/jars/geny_2.12-0.6.5.jar"
+        ],
+        "out": "/home/nasmth/projects/project0/project0/.bloop/root",
+        "classesDir": "/home/nasmth/projects/project0/project0/.bloop/root/scala-2.12/classes",
+        "resources": [
+            "/home/nasmth/projects/project0/project0/src/main/resources",
+            "/home/nasmth/projects/project0/project0/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.8",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/nasmth/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.8.jar",
+                "/home/nasmth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar",
+                "/home/nasmth/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar",
+                "/home/nasmth/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar",
+                "/home/nasmth/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar"
+            ],
+            "analysis": "/home/nasmth/projects/project0/project0/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options": [
+                    "-Duser.dir=/home/nasmth/projects/project0/project0"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/nasmth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "42.2.19",
+                    "artifacts": [
+                        {
+                            "name": "postgresql",
+                            "path": "/home/nasmth/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-42.2.19.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/org.postgresql/postgresql/srcs/postgresql-42.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.5.0",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/home/nasmth/.ivy2/cache/org.checkerframework/checker-qual/jars/checker-qual-3.5.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/org.checkerframework/checker-qual/srcs/checker-qual-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.12",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle_2.12/jars/upickle_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle_2.12",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle_2.12/srcs/upickle_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.12",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/ujson_2.12/jars/ujson_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "ujson_2.12",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/ujson_2.12/srcs/ujson_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_2.12",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle-core_2.12/jars/upickle-core_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.12",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle-core_2.12/srcs/upickle-core_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.12",
+                    "version": "2.0.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "/home/nasmth/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/bundles/scala-collection-compat_2.12-2.0.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/srcs/scala-collection-compat_2.12-2.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upack_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "upack_2.12",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/upack_2.12/jars/upack_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "upack_2.12",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/upack_2.12/srcs/upack_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-implicits_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "upickle-implicits_2.12",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle-implicits_2.12/jars/upickle-implicits_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_2.12",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/upickle-implicits_2.12/srcs/upickle-implicits_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "os-lib_2.12",
+                    "version": "0.7.3",
+                    "artifacts": [
+                        {
+                            "name": "os-lib_2.12",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/os-lib_2.12/jars/os-lib_2.12-0.7.3.jar"
+                        },
+                        {
+                            "name": "os-lib_2.12",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/os-lib_2.12/srcs/os-lib_2.12-0.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.12",
+                    "version": "0.6.5",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.12",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/geny_2.12/jars/geny_2.12-0.6.5.jar"
+                        },
+                        {
+                            "name": "geny_2.12",
+                            "classifier": "sources",
+                            "path": "/home/nasmth/.ivy2/cache/com.lihaoyi/geny_2.12/srcs/geny_2.12-0.6.5-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
